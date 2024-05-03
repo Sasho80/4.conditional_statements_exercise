@@ -20,6 +20,18 @@ input	output		input	output	        input	output	        input	output
 20	6               175     37.0            2703    270.3           15875   1589.5
         26		        212.0                   2973.3                  17464.5
 
+03.Problem: Time + 15 minutes
+To write a program that reads the hour and minutes of a 24-hour day entered by the user and calculates what the time will be in 15 minutes. 
+Print the result in hours:minutes format. Hours are always between 0 and 23 and minutes are always between 0 and 59. 
+Hours are written as one or two digits. Minutes are always written as two digits, with a leading zero when necessary.
+
+input	output		input	output		input	output		input	output		input	output	
+1                       0       0:16            23	0:14            11      11:23           12      13:04
+46	2:01		01                      59                      08                      49
+			
+		
+			
+	
 
 
 		
