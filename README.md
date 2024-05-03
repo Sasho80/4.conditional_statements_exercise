@@ -29,7 +29,7 @@ input	output		input	output		input	output		input	output		input	output
 1                       0       0:16            23	0:14            11      11:23           12      13:04
 46	2:01		01                      59                      08                      49
 
-04.Problem: Toy store
+04.Problem: Toy shop
 Petya has a children's toy shop. She gets a big order to fulfill. With the money he will earn, he wants to go on an excursion.
 Toy prices:
 • Puzzle - BGN 2.60.
