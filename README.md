@@ -108,6 +108,34 @@ input	output
 55.68	Not enough money!
         Wingard needs 2495.77 leva more.
 
+06.Problem: World record in swimming
+Ivan decides to improve the World Record in long distance swimming. Enter the record in seconds that Ivan needs to beat, the distance in meters that he needs to swim, and the time in seconds that he needs to swim 1 m on the console. Write a program that calculates whether he has completed the task by considering that: water resistance slows him down every 15 m by 12.5 seconds. When calculating how many times Ivan will slow down due to water resistance, the result should be rounded down to the nearest whole number.
+Calculate the time in seconds for Ivan to swim the distance and the difference to the World Record.
+Login
+3 lines are read from the console:
+1. The record in seconds – a real number;
+2. The distance in meters – a real number;
+3. The time in seconds for which he swims a distance of 1 m. - a real number.
+Exit
+Printing to the console depends on the result:
+• If Ivan has improved the World Record (his time is less than the record) we print:
+o "Yes, he succeeded! The new world record is {Ivan's time} seconds."
+• If he has NOT broken the record (his time is greater than or equal to the record) we print:
+o "No, he failed! He was {missing seconds} seconds slower."
+The result must be formatted to the second decimal place.
+
+input   output
+10464
+1500
+20	No, he failed! He was 20786.00 seconds slower.
+
+input   output
+55555.67
+3017
+5.03	Yes, he succeeded! The new world record is 17688.01 seconds.
+
+
+
 
 	
 
