@@ -29,7 +29,48 @@ input	output		input	output		input	output		input	output		input	output
 1                       0       0:16            23	0:14            11      11:23           12      13:04
 46	2:01		01                      59                      08                      49
 
-04.Problem:
+04.Problem: Toy store
+Petya has a children's toy shop. She gets a big order to fulfill. With the money he will earn, he wants to go on an excursion.
+Toy prices:
+• Puzzle - BGN 2.60.
+• Talking doll - BGN 3
+• Teddy bear - BGN 4.10.
+• Mignon - BGN 8.20.
+• Truck - BGN 2
+If the ordered toys are 50 or more, the store makes a discount of 25% of the total price. From the money earned, Petya must give 10% for the rent of the shop. To calculate whether the money will be enough for her to go on an excursion.
+Login
+6 lines are read from the console:
+1. Excursion price - a real number in the interval [1.00 … 10000.00]
+2. Number of puzzles - an integer in the range [0… 1000]
+3. Number of talking dolls - an integer in the interval [0 … 1000]
+4. Number of teddy bears - an integer in the interval [0 … 1000]
+5. Number of minions - an integer in the interval [0 … 1000]
+6. Number of trucks - an integer in the range [0 … 1000]
+Exit
+The console prints:
+• If the money is sufficient, the following is printed:
+o "Yes! {remaining money} lv left."
+• If the money is NOT enough, the following is printed:
+o "Not enough money! lv needed."
+
+The result must be formatted to the second decimal place.
+input	output
+40.8
+20
+25
+30
+50
+10	Yes! 418.20 lv left.
+
+input	output
+320
+8
+2
+5
+5
+1	Not enough money! 238.73 lv needed.
+
+
 
 			
 		
