@@ -28,6 +28,9 @@ Hours are written as one or two digits. Minutes are always written as two digits
 input	output		input	output		input	output		input	output		input	output	
 1                       0       0:16            23	0:14            11      11:23           12      13:04
 46	2:01		01                      59                      08                      49
+
+04.Problem:
+
 			
 		
 			
