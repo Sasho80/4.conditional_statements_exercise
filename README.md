@@ -38,7 +38,7 @@ Toy prices:
 • Mignon - BGN 8.20.
 • Truck - BGN 2
 If the ordered toys are 50 or more, the store makes a discount of 25% of the total price. From the money earned, Petya must give 10% for the rent of the shop. To calculate whether the money will be enough for her to go on an excursion.
-Login
+input
 6 lines are read from the console:
 1. Excursion price - a real number in the interval [1.00 … 10000.00]
 2. Number of puzzles - an integer in the range [0… 1000]
@@ -46,7 +46,7 @@ Login
 4. Number of teddy bears - an integer in the interval [0 … 1000]
 5. Number of minions - an integer in the interval [0 … 1000]
 6. Number of trucks - an integer in the range [0 … 1000]
-Exit
+output
 The console prints:
 • If the money is sufficient, the following is printed:
 o "Yes! {remaining money} lv left."
@@ -76,12 +76,12 @@ to calculate whether the budgeted funds are sufficient to make the film. The sho
 It is known that:
 • The set for the film is worth 10% of the budget.
 • For more than 150 extras, there is a 10% clothing discount.
-Login
+input
 3 lines are read from the console:
 Line 1. Budget for the film - a real number in the interval [1.00 … 1000000.00]
 Line 2. Number of extras – an integer in the interval [1 … 500]
 Line 3. Price for clothing of one extra - real number in the interval [1.00 … 1000.00]
-Exit
+output
 Two lines should be printed to the console:
 • If the money for the decor and clothes is more than the budget:
 o "Not enough money!"
@@ -111,12 +111,12 @@ input	output
 06.Problem: World swimming record
 Ivan decides to improve the World Record in long distance swimming. Enter the record in seconds that Ivan needs to beat, the distance in meters that he needs to swim, and the time in seconds that he needs to swim 1 m on the console. Write a program that calculates whether he has completed the task by considering that: water resistance slows him down every 15 m by 12.5 seconds. When calculating how many times Ivan will slow down due to water resistance, the result should be rounded down to the nearest whole number.
 Calculate the time in seconds for Ivan to swim the distance and the difference to the World Record.
-Login
+input
 3 lines are read from the console:
 1. The record in seconds – a real number;
 2. The distance in meters – a real number;
 3. The time in seconds for which he swims a distance of 1 m. - a real number.
-Exit
+output
 Printing to the console depends on the result:
 • If Ivan has improved the World Record (his time is less than the record) we print:
 o "Yes, he succeeded! The new world record is {Ivan's time} seconds."
@@ -133,6 +133,40 @@ input   output
 55555.67
 3017
 5.03	Yes, he succeeded! The new world record is 17688.01 seconds.
+
+07.Shopping
+Peter wants to buy N video cards, M processors and P number of RAM. If the number of video cards is greater than the number of processors, you get a 15% discount on the final bill. The following prices apply:
+• Video card – BGN 250/pc.
+• Processor – 35% of the price of purchased video cards/pcs.
+• RAM memory – 10% of the price of purchased video cards/pcs.
+To calculate the amount needed to purchase the materials and to calculate whether the budget will be enough.
+input
+The input consists of four lines:
+1. Peter's budget - a real number in the interval [1.0…100000.0]
+2. The number of video cards - an integer in the interval [1…100]
+3. The number of processors - an integer in the interval [1…100]
+4. The number of RAM memory - an integer in the interval [1...100]
+output
+1 line is printed to the console, which should look like this:
+• If the budget is sufficient:
+"You have {remaining budget} leva left!"
+• If the amount exceeds the budget:
+"Not enough money! You need leva more!"
+Format the result to the second decimal place.
+
+input	output
+900
+2
+1
+3	You have 198.75 leva left!
+
+input   output
+920.45
+3
+1
+1	Not enough money! You need 3.92 leva more!
+
+
 
 
 
