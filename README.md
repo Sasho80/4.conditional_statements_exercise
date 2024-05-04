@@ -166,6 +166,33 @@ input   output
 1
 1	Not enough money! You need 3.92 leva more!
 
+08.Lunch break
+During your lunch break, you want to watch an episode of your favorite series. Your task is to write a program that will tell if you have enough time to watch the episode. During the break, you have time for lunch and time for relaxation. Lunch time will be 1/8 of break time and recess time will be 1/4 of break time.
+input
+3 lines are read from the console:
+1. Name of series - text
+2. Episode duration - an integer in the range [10… 90]
+3. Rest duration - an integer in the range [10… 120]
+output
+Write one line to the console:
+• If there is enough time to watch the episode:
+"You have enough time to watch {series name} and left with {remaining time} minutes free time."
+• If you don't have enough time:
+"You don't have enough time to watch {series name}, you need {necessary time} more minutes."
+Time to round up to the nearest whole number.
+
+input            output
+Game of Thrones
+60
+96
+	        You have enough time to watch Game of Thrones and left with 0 minutes free time.
+
+input          output
+Teen Wolf
+48
+60	       You don't have enough time to watch Teen Wolf, you need 11 more minutes.
+
+
 
 
 
